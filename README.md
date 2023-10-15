@@ -1,6 +1,6 @@
 # Tugas1-BigData
 # Scraping Data from News Articles and Converting to JSON
-Panduan ini menjelaskan bagaimana cara mengambil data dari artikel berita menggunakan Python dan mengonversi informasi yang diekstraksi ke dalam format JSON. Menggunakan perpustakaan seperti requests, BeautifulSoup, dan newspaper3k untuk melakukan web scraping, serta json untuk pemformatan JSON.
+Panduan ini menjelaskan bagaimana cara mengambil data dari artikel berita menggunakan Python dan mengonversi informasi yang diekstraksi ke dalam format JSON. Menggunakan library seperti requests, BeautifulSoup, dan newspaper3k untuk melakukan web scraping, serta json untuk pemformatan JSON.
 
 Persyaratan 
 Pastikan  telah menginstal perpustakaan Python berikut:
