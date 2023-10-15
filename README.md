@@ -34,7 +34,26 @@ Kita dapat masuk ke kontainer MongoDB yang sudah dibuat dengan menggunakan perin
 docker exec -it mongoserver5 bash
 ```
 
-#### Mengkoneksikan kontainer dengan Studio 3t
+#### Mengkoneksikan kontainer dengan  aplikasi Studio 3t
+Kita akan membuat koneksi baru
+
+![image](https://github.com/AriqAqi/Tugas1-BigData/assets/115605338/d029c267-bf22-46aa-b7db-472ffd701866)
+
+
+
+Kita dapat mengisi server dengan localhost dan portnya 8082
+
+![image](https://github.com/AriqAqi/Tugas1-BigData/assets/115605338/8c2b9d8e-6134-47e0-a150-dbdbae6693e2)
+
+
+#### Import hasil crawling data kedalam kontainer
+Setelah kita mengkoneksikannya, kita akan mengiputkan data json kedalam kontainernya
+
+![image](https://github.com/AriqAqi/Tugas1-BigData/assets/115605338/c1f17c3a-b33b-4ea4-8a47-3eb363ff81ed)
+
+Kita dapat mengisi target connection, target Database dan target collection. berikutnya kita akan klik run dan file json sudah masuk kedalam kontainernya
+
+
 
 
   
