@@ -1,7 +1,26 @@
 # Tugas1-BigData
+# Scraping Data from News Articles and Converting to JSON
+Panduan ini menjelaskan bagaimana cara mengambil data dari artikel berita menggunakan Python dan mengonversi informasi yang diekstraksi ke dalam format JSON. Menggunakan perpustakaan seperti requests, BeautifulSoup, dan newspaper3k untuk melakukan web scraping, serta json untuk pemformatan JSON.
 
+Persyaratan 
+Pastikan  telah menginstal perpustakaan Python berikut:
+1. requests
+2. beautifulsoup4
+3. newspaper3k
+4. json
 
+Langkah-Langkah
+1. Mengambil Konten Halaman Web: Gunakan perpustakaan requests untuk mengambil konten dari URL artikel berita.
+2. Mengurai Konten HTML: Manfaatkan BeautifulSoup untuk mengurai konten HTML halaman web.
+3. Mengekstrak Judul, Penulis, dan Tanggal Publikasi: Buat objek Article menggunakan newspaper3k, unduh dan parse artikel tersebut, ekstrak judul, penulis, dan tanggal publikasi dari objek artikel.
+4. Mengekstrak Konten Artikel: Dapatkan konten utama artikel dengan menggunakan objek artikel.
+5. Membuat Representasi JSON: Bangun kamus Python yang berisi data yang telah diekstrak, termasuk judul, penulis, tanggal publikasi, dan konten.
+6. Mengonversi ke Format JSON: Gunakan fungsi json.dumps untuk mengonversi kamus Python menjadi string JSON.
+7. Mencetak Data JSON: Cetak data JSON yang berisi informasi yang telah diekstrak
 
+Penggunaan
+Jalankan skrip Python untuk mengambil data dari artikel berita tertentu.
+Hasilnya akan berupa string JSON yang berisi informasi yang telah diekstrak, termasuk judul, penulis, tanggal publikasi, dan konten.
 
 Setelah melakukan Crawling data, kita bisa menyimpan hasil ke container yang sudah dibuat.
 
